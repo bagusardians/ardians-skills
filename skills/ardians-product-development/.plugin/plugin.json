@@ -1,0 +1,13 @@
+{
+  "name": "ardians-product-development",
+  "version": "1.0.0",
+  "description": "Implements a product on an isolated branch with tests. Use when the user asks to implement the product, build the MVP, start development, write the code, or execute the build tasks.",
+  "author": {
+    "name": "Ardians"
+  },
+  "license": "MIT",
+  "keywords": [
+    "product",
+    "development"
+  ]
+}

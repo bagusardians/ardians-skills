@@ -1,0 +1,13 @@
+{
+  "name": "ardians-product-ideation",
+  "version": "1.0.0",
+  "description": "Turns a raw product idea into a validated concept and a PRD. Use when the user asks to ideate a product, validate a product idea, define an MVP, scope a new product, run product discovery, or write a PRD.",
+  "author": {
+    "name": "Ardians"
+  },
+  "license": "MIT",
+  "keywords": [
+    "product",
+    "ideation"
+  ]
+}

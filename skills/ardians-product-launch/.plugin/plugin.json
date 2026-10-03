@@ -1,0 +1,13 @@
+{
+  "name": "ardians-product-launch",
+  "version": "1.0.0",
+  "description": "Validates, reviews, and releases a product through QA, code review, CI, and deployment. Use when the user asks to ship this MVP, prepare a release, QA and release, run the release checklist, or deploy the product.",
+  "author": {
+    "name": "Ardians"
+  },
+  "license": "MIT",
+  "keywords": [
+    "product",
+    "launch"
+  ]
+}

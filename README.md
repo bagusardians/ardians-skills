@@ -1,0 +1,71 @@
+# ardians-skills
+
+A shareable, globally reusable OpenHands skill family that drives end-to-end
+product development. Each stage skill sequences skills already installed in the
+runtime instead of re-implementing them.
+
+## Skills
+
+| Skill | Stage | Purpose |
+|---|---|---|
+| `ardians-product-ideation` | 1 | Idea to validated concept and PRD |
+| `ardians-product-design` | 2 | Design tokens and UI/UX spec |
+| `ardians-product-architecture` | 3 | Architecture doc and task breakdown |
+| `ardians-product-development` | 4 | Implementation on an isolated branch, test-first |
+| `ardians-product-analytics` | 5 | Event taxonomy, KPIs, instrumentation, dashboards |
+| `ardians-product-launch` | 6 | QA, review, CI, release, deploy |
+| `ardians-product-growth` | 7 (optional) | Positioning, GTM plan, launch assets |
+| `ardians-crypto-trading-signal` | on demand | Crypto trading signals, backtests, risk |
+| `ardians-product-orchestrator` | all | Runs the pipeline end to end |
+
+The orchestrator runs the seven stages in order. By default it stops at each
+stage gate for approval. When the user opens with "one shot" or an equivalent,
+it runs straight through and still stops for destructive, security-sensitive, or
+external side effects. `ardians-crypto-trading-signal` is not in the default
+pipeline and is invoked only for crypto or trading requests.
+
+Stage order, entry and exit artifacts, gates, and parallelization live in
+`skills/ardians-product-orchestrator/references/pipeline.md`.
+
+## Layout
+
+```
+marketplaces/ardians-skills.json      marketplace manifest
+.plugin/marketplace.json              same manifest, harness location
+.plugin/plugin.json                   (per skill) plugin descriptor
+skills/ardians-*/SKILL.md             skill entry points
+skills/ardians-*/references/*.md      detail files
+skills/ardians-*/.plugin/plugin.json  per-skill descriptor
+```
+
+## Install
+
+Register the pack as a marketplace so every conversation can load it.
+
+1. Publish this repository to a Git remote (GitHub or any Git host).
+2. In OpenHands, open Skills settings and add a marketplace pointing at
+   `marketplaces/ardians-skills.json` in that repository.
+3. Start a new conversation so the catalog is snapshotted. All nine skills
+   should appear, and the orchestrator should trigger on "run the full product
+   pipeline".
+
+To use it locally without publishing, point the marketplace at the local
+`marketplaces/ardians-skills.json` path instead.
+
+## Prerequisite
+
+`ardians-product-design` uses `extract-design-system` when it is active. That
+plugin is optional: if it is not enabled, the stage falls back to
+`frontend-design` and `theme-factory` and records that tokens are
+designer-authored. Enable `extract-design-system` in Skills settings to use the
+extraction path.
+
+## Before publishing
+
+Replace the placeholder `author` and any homepage or repository values with the
+real owner and repository URL, then keep `marketplaces/ardians-skills.json` and
+`.plugin/marketplace.json` in sync.
+
+## License
+
+MIT. See `LICENSE`.

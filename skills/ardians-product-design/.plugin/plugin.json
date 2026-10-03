@@ -1,0 +1,13 @@
+{
+  "name": "ardians-product-design",
+  "version": "1.0.0",
+  "description": "Produces UI and UX specifications grounded in a real design system. Use when the user asks to design the UI with a real design system, create design tokens, produce a UX spec, design the interface, or extract a design system from a reference site.",
+  "author": {
+    "name": "Ardians"
+  },
+  "license": "MIT",
+  "keywords": [
+    "product",
+    "design"
+  ]
+}

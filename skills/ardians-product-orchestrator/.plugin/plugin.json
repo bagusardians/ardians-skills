@@ -1,0 +1,13 @@
+{
+  "name": "ardians-product-orchestrator",
+  "version": "1.0.0",
+  "description": "Runs the full Ardians product pipeline end to end, from idea through design, architecture, development, analytics, launch, and growth. Use when the user asks to run the full product pipeline, do end-to-end product development, take a product from idea to launch, or run it one shot.",
+  "author": {
+    "name": "Ardians"
+  },
+  "license": "MIT",
+  "keywords": [
+    "product",
+    "orchestrator"
+  ]
+}

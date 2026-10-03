@@ -1,0 +1,13 @@
+{
+  "name": "ardians-product-architecture",
+  "version": "1.0.0",
+  "description": "Produces the system architecture and technical spec for a product. Use when the user asks to plan the architecture, write a technical spec, do system design, produce an architecture doc, or break a product into build tasks.",
+  "author": {
+    "name": "Ardians"
+  },
+  "license": "MIT",
+  "keywords": [
+    "product",
+    "architecture"
+  ]
+}

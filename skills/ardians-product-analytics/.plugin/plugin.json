@@ -1,0 +1,13 @@
+{
+  "name": "ardians-product-analytics",
+  "version": "1.0.0",
+  "description": "Defines and implements product measurement, event taxonomy, KPIs, and dashboards. Use when the user asks to set up product analytics, define KPIs, build an event taxonomy, instrument events, or create an analytics dashboard.",
+  "author": {
+    "name": "Ardians"
+  },
+  "license": "MIT",
+  "keywords": [
+    "product",
+    "analytics"
+  ]
+}
