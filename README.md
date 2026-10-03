@@ -17,6 +17,7 @@ runtime instead of re-implementing them.
 | `ardians-product-growth` | 7 (optional) | Positioning, GTM plan, launch assets |
 | `ardians-crypto-trading-signal` | on demand | Crypto trading signals, backtests, risk |
 | `ardians-novel-writing` | on demand | Long-form fiction in eight phases |
+| `ardians-novel-reviewer-critic` | on demand | Novel review, ratings, feedback, comparisons |
 | `ardians-product-orchestrator` | all | Runs the pipeline end to end |
 
 The orchestrator runs the seven stages in order. By default it stops at each
@@ -26,6 +27,9 @@ external side effects. `ardians-crypto-trading-signal` is not in the default
 pipeline and is invoked only for crypto or trading requests.
 `ardians-novel-writing` is standalone: it is not part of the pipeline at all
 and runs its own eight-phase fiction flow on request (worldbuilding first).
+`ardians-novel-reviewer-critic` is standalone as well: it reviews, rates, and
+critiques fiction without writing or rewriting it. It is the evaluation
+counterpart to `ardians-novel-writing`.
 
 Stage order, entry and exit artifacts, gates, and parallelization live in
 `skills/ardians-product-orchestrator/references/pipeline.md`.
@@ -49,7 +53,7 @@ Register the pack as a marketplace so every conversation can load it.
 2. In OpenHands, open `Settings` > `Skills` > `Marketplaces` and add a
    repository with URL `https://github.com/bagusardians/ardians-skills`, branch
    `main`, and leave Path empty (the manifest is at the repo root).
-3. Start a new conversation so the catalog is snapshotted. All ten skills
+3. Start a new conversation so the catalog is snapshotted. All eleven skills
    should appear, and the orchestrator should trigger on "run the full product
    pipeline".
 

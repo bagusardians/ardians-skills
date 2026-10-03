@@ -1,0 +1,24 @@
+{
+  "name": "ardians-novel-reviewer-critic",
+  "version": "1.0.0",
+  "description": "Reviews and critiques novels, stories, and manuscripts with the depth of a veteran critic who has appraised thousands of books. Use when the user asks to review a novel, critique a manuscript, rate a book, score a story, get developmental feedback, compare a book to other books, or asks 'is my novel any good'.",
+  "author": {
+    "name": "bagusardians"
+  },
+  "homepage": "https://github.com/bagusardians/ardians-skills",
+  "repository": "https://github.com/bagusardians/ardians-skills",
+  "license": "MIT",
+  "keywords": [
+    "review my novel",
+    "review my manuscript",
+    "critique my book",
+    "rate my novel",
+    "score my story",
+    "compare my book to",
+    "novel",
+    "fiction",
+    "review",
+    "critique",
+    "critic"
+  ]
+}
