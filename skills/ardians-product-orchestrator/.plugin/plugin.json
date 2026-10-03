@@ -3,10 +3,16 @@
   "version": "1.0.0",
   "description": "Runs the full Ardians product pipeline end to end, from idea through design, architecture, development, analytics, launch, and growth. Use when the user asks to run the full product pipeline, do end-to-end product development, take a product from idea to launch, or run it one shot.",
   "author": {
-    "name": "Ardians"
+    "name": "bagusardians"
   },
+  "homepage": "https://github.com/bagusardians/ardians-skills",
+  "repository": "https://github.com/bagusardians/ardians-skills",
   "license": "MIT",
   "keywords": [
+    "full product pipeline",
+    "end-to-end product development",
+    "idea to launch",
+    "run it one shot",
     "product",
     "orchestrator"
   ]

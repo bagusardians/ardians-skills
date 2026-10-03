@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "Validates, reviews, and releases a product through QA, code review, CI, and deployment. Use when the user asks to ship this MVP, prepare a release, QA and release, run the release checklist, or deploy the product.",
   "author": {
-    "name": "Ardians"
+    "name": "bagusardians"
   },
+  "homepage": "https://github.com/bagusardians/ardians-skills",
+  "repository": "https://github.com/bagusardians/ardians-skills",
   "license": "MIT",
   "keywords": [
+    "ship this mvp",
+    "prepare a release",
+    "qa and release",
+    "release checklist",
+    "deploy the product",
     "product",
     "launch"
   ]

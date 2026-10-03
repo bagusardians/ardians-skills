@@ -42,14 +42,15 @@ skills/ardians-*/.plugin/plugin.json  per-skill descriptor
 
 Register the pack as a marketplace so every conversation can load it.
 
-1. Publish this repository to a Git remote (GitHub or any Git host).
-2. In OpenHands, open Skills settings and add a marketplace pointing at
-   `marketplaces/ardians-skills.json` in that repository.
+1. The pack is published at `https://github.com/bagusardians/ardians-skills`.
+2. In OpenHands, open `Settings` > `Skills` > `Marketplaces` and add a
+   repository with URL `https://github.com/bagusardians/ardians-skills`, branch
+   `main`, and leave Path empty (the manifest is at the repo root).
 3. Start a new conversation so the catalog is snapshotted. All nine skills
    should appear, and the orchestrator should trigger on "run the full product
    pipeline".
 
-To use it locally without publishing, point the marketplace at the local
+To use it locally without a remote, point the marketplace at this repository's
 `marketplaces/ardians-skills.json` path instead.
 
 ## Prerequisite
@@ -60,11 +61,12 @@ plugin is optional: if it is not enabled, the stage falls back to
 designer-authored. Enable `extract-design-system` in Skills settings to use the
 extraction path.
 
-## Before publishing
+## Metadata
 
-Replace the placeholder `author` and any homepage or repository values with the
-real owner and repository URL, then keep `marketplaces/ardians-skills.json` and
-`.plugin/marketplace.json` in sync.
+The `author`, `homepage`, and `repository` fields point at
+`bagusardians/ardians-skills`. Update `marketplaces/ardians-skills.json`,
+`.plugin/marketplace.json`, and each `skills/*/.plugin/plugin.json` if you fork
+or rename the repository, keeping the two manifest copies identical.
 
 ## License
 

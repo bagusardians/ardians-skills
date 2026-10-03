@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "Prepares go-to-market positioning, launch communications, and growth plans. Use when the user asks to plan our go-to-market, write a GTM plan, prepare launch comms, define positioning, or build a growth plan.",
   "author": {
-    "name": "Ardians"
+    "name": "bagusardians"
   },
+  "homepage": "https://github.com/bagusardians/ardians-skills",
+  "repository": "https://github.com/bagusardians/ardians-skills",
   "license": "MIT",
   "keywords": [
+    "go-to-market",
+    "gtm plan",
+    "launch comms",
+    "positioning",
+    "growth plan",
     "product",
     "growth"
   ]

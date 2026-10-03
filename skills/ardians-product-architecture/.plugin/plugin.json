@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "Produces the system architecture and technical spec for a product. Use when the user asks to plan the architecture, write a technical spec, do system design, produce an architecture doc, or break a product into build tasks.",
   "author": {
-    "name": "Ardians"
+    "name": "bagusardians"
   },
+  "homepage": "https://github.com/bagusardians/ardians-skills",
+  "repository": "https://github.com/bagusardians/ardians-skills",
   "license": "MIT",
   "keywords": [
+    "product architecture",
+    "technical spec",
+    "system design",
+    "architecture doc",
+    "break into tasks",
     "product",
     "architecture"
   ]

@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "Builds and evaluates crypto trading signals and strategies, including data ingestion, indicators, backtesting, risk management, and signal delivery. Use when the user mentions a crypto trading signal, a trading bot, a trading strategy, backtest a strategy, or a market signal. Not financial advice.",
   "author": {
-    "name": "Ardians"
+    "name": "bagusardians"
   },
+  "homepage": "https://github.com/bagusardians/ardians-skills",
+  "repository": "https://github.com/bagusardians/ardians-skills",
   "license": "MIT",
   "keywords": [
+    "crypto trading signal",
+    "trading bot",
+    "trading strategy",
+    "backtest a strategy",
+    "market signal",
     "crypto",
     "trading",
     "signal"

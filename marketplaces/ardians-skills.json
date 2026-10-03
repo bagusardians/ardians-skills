@@ -1,12 +1,15 @@
 {
   "name": "ardians-skills",
   "owner": {
-    "name": "Ardians"
+    "name": "bagusardians"
   },
   "metadata": {
     "description": "End-to-end product development pipeline skills: ideation, design, architecture, development, analytics, launch, and growth, plus an on-demand crypto trading signal skill and an orchestrator.",
     "version": "1.0.0",
-    "pluginRoot": "./skills"
+    "pluginRoot": "./skills",
+    "maintainer": "bagusardians",
+    "homepage": "https://github.com/bagusardians/ardians-skills",
+    "repository": "https://github.com/bagusardians/ardians-skills"
   },
   "plugins": [
     {
@@ -15,6 +18,11 @@
       "description": "Turns a raw product idea into a validated concept and a PRD. Use when the user asks to ideate a product, validate a product idea, define an MVP, scope a new product, run product discovery, or write a PRD.",
       "category": "writing",
       "keywords": [
+        "ideate a product",
+        "validate a product idea",
+        "define an mvp",
+        "product discovery",
+        "write a prd",
         "product",
         "ideation"
       ]
@@ -25,6 +33,11 @@
       "description": "Produces UI and UX specifications grounded in a real design system. Use when the user asks to design the UI with a real design system, create design tokens, produce a UX spec, design the interface, or extract a design system from a reference site.",
       "category": "design",
       "keywords": [
+        "design system",
+        "design the ui",
+        "ux spec",
+        "design tokens",
+        "extract a design system",
         "product",
         "design"
       ]
@@ -35,6 +48,11 @@
       "description": "Produces the system architecture and technical spec for a product. Use when the user asks to plan the architecture, write a technical spec, do system design, produce an architecture doc, or break a product into build tasks.",
       "category": "other",
       "keywords": [
+        "product architecture",
+        "technical spec",
+        "system design",
+        "architecture doc",
+        "break into tasks",
         "product",
         "architecture"
       ]
@@ -45,6 +63,11 @@
       "description": "Implements a product on an isolated branch with tests. Use when the user asks to implement the product, build the MVP, start development, write the code, or execute the build tasks.",
       "category": "code-quality",
       "keywords": [
+        "implement the product",
+        "build the mvp",
+        "start development",
+        "write the code",
+        "execute the build tasks",
         "product",
         "development"
       ]
@@ -55,6 +78,11 @@
       "description": "Defines and implements product measurement, event taxonomy, KPIs, and dashboards. Use when the user asks to set up product analytics, define KPIs, build an event taxonomy, instrument events, or create an analytics dashboard.",
       "category": "integrations",
       "keywords": [
+        "product analytics",
+        "define kpis",
+        "event taxonomy",
+        "instrument events",
+        "analytics dashboard",
         "product",
         "analytics"
       ]
@@ -65,6 +93,11 @@
       "description": "Validates, reviews, and releases a product through QA, code review, CI, and deployment. Use when the user asks to ship this MVP, prepare a release, QA and release, run the release checklist, or deploy the product.",
       "category": "automations",
       "keywords": [
+        "ship this mvp",
+        "prepare a release",
+        "qa and release",
+        "release checklist",
+        "deploy the product",
         "product",
         "launch"
       ]
@@ -75,6 +108,11 @@
       "description": "Prepares go-to-market positioning, launch communications, and growth plans. Use when the user asks to plan our go-to-market, write a GTM plan, prepare launch comms, define positioning, or build a growth plan.",
       "category": "writing",
       "keywords": [
+        "go-to-market",
+        "gtm plan",
+        "launch comms",
+        "positioning",
+        "growth plan",
         "product",
         "growth"
       ]
@@ -85,6 +123,11 @@
       "description": "Builds and evaluates crypto trading signals and strategies, including data ingestion, indicators, backtesting, risk management, and signal delivery. Use when the user mentions a crypto trading signal, a trading bot, a trading strategy, backtest a strategy, or a market signal. Not financial advice.",
       "category": "other",
       "keywords": [
+        "crypto trading signal",
+        "trading bot",
+        "trading strategy",
+        "backtest a strategy",
+        "market signal",
         "crypto",
         "trading",
         "signal"
@@ -96,6 +139,10 @@
       "description": "Runs the full Ardians product pipeline end to end, from idea through design, architecture, development, analytics, launch, and growth. Use when the user asks to run the full product pipeline, do end-to-end product development, take a product from idea to launch, or run it one shot.",
       "category": "agent-authoring",
       "keywords": [
+        "full product pipeline",
+        "end-to-end product development",
+        "idea to launch",
+        "run it one shot",
         "product",
         "orchestrator"
       ]
