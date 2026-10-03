@@ -1,4 +1,4 @@
-# Phase 4: Genre Immersion
+# Phase 5: Genre Immersion
 
 Study the genre so the book meets reader expectations while still having its own voice.
 This phase composes `research-brief` and `use-jev`.
@@ -21,7 +21,7 @@ the specific ways this book will meet or deliberately break each convention.
 ## Gate
 
 Present the playbook and confirm the conventions to honor and the ones to break before
-phase 5.
+phase 6.
 
 ## Checklist
 

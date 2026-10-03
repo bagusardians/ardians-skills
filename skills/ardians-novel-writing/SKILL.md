@@ -1,6 +1,6 @@
 ---
 name: ardians-novel-writing
-description: "Writes and develops long-form fiction through a seven-phase pipeline: style definition, voice emulation, deep research, genre immersion, drafting, editorial quality, and illustration and maps. Use when the user asks to write a novel, write a book, develop a writing style, ghostwrite in the style of an author, edit a manuscript, or create book cover art and maps."
+description: "Writes and develops long-form fiction through an eight-phase pipeline: worldbuilding, style definition, voice emulation, deep research, genre immersion, drafting, editorial quality, and illustration and maps. Use when the user asks to write a novel, write a book, develop a writing style, ghostwrite in the style of an author, edit a manuscript, or create book cover art and maps."
 triggers:
 - write a novel
 - write a book
@@ -13,7 +13,7 @@ triggers:
 # Ardians Novel Writing
 
 A standalone, on-demand skill for long-form fiction. It is not part of the product
-pipeline. It runs seven phases, each with its own reference file and a gate before the
+pipeline. It runs eight phases, each with its own reference file and a gate before the
 next phase.
 
 ## Entry and exit
@@ -37,26 +37,32 @@ These are hard rules.
 Run the phases in order. Stop at each phase gate by default; run straight through only if
 the user asked for "one shot" (or equivalent).
 
+**Worldbuilding is phase 1. It begins immediately after the premise is agreed and before
+style, voice, or drafting.** A story is built on a world; if the world is undefined, every
+later phase invents it by accident.
+
 | # | Phase | Artifact | Composes | Reference |
 |---|---|---|---|---|
-| 1 | Style definition | Style guide | `technical-writing`, `brainstorming` | `references/01-style-definition.md` |
-| 2 | Voice emulation | Style fingerprint | `research-brief`, `evidence-based-citations`, `use-jev` | `references/02-voice-emulation.md` |
-| 3 | Deep research | Research brief | `research-brief`, `evidence-based-citations`, `notion`, `jupyter` | `references/03-deep-research.md` |
-| 4 | Genre immersion | Genre playbook | `research-brief`, `use-jev` | `references/04-genre-immersion.md` |
-| 5 | Novel writing | Outline and draft | `writing-plans`, `technical-writing`, `plain-english-content`, `agent-memory`, `dispatching-parallel-agents` | `references/05-novel-writing.md` |
-| 6 | Editorial and quality | Edited draft | `use-jev`, `evidence-based-citations`, `technical-writing` | `references/06-editorial-quality.md` |
-| 7 | Illustration and maps | Cover, illustrations, maps, typeset output | `theme-factory`, `frontend-design`, `canvas-extension-api`, `pdflatex` | `references/07-illustration-maps.md` |
+| 1 | Worldbuilding | World bible | `brainstorming`, `technical-writing` | `references/01-worldbuilding.md` |
+| 2 | Style definition | Style guide | `technical-writing`, `brainstorming` | `references/02-style-definition.md` |
+| 3 | Voice emulation | Style fingerprint | `research-brief`, `evidence-based-citations`, `use-jev` | `references/03-voice-emulation.md` |
+| 4 | Deep research | Research brief | `research-brief`, `evidence-based-citations`, `notion`, `jupyter` | `references/04-deep-research.md` |
+| 5 | Genre immersion | Genre playbook | `research-brief`, `use-jev` | `references/05-genre-immersion.md` |
+| 6 | Novel writing | Outline and draft | `writing-plans`, `technical-writing`, `plain-english-content`, `agent-memory`, `dispatching-parallel-agents` | `references/06-novel-writing.md` |
+| 7 | Editorial and quality | Edited draft | `use-jev`, `evidence-based-citations`, `technical-writing` | `references/07-editorial-quality.md` |
+| 8 | Illustration and maps | Cover, illustrations, maps, typeset output | `theme-factory`, `frontend-design`, `canvas-extension-api`, `pdflatex` | `references/08-illustration-maps.md` |
 
 ## Steps
 
 1. Confirm the premise, genre, audience, length target, point of view, and tense before
    phase 1. Do not start drafting until these are agreed.
-2. Run phases 1 to 7 in order. For each phase, load its reference file and invoke the
+2. Run the worldbuilding phase first, immediately after the premise, and gate it. Then run
+   the remaining phases in order. For each phase, load its reference file and invoke the
    composed skills it names.
 3. Between phases, present the phase artifact and ask the user to approve before
    continuing.
-4. Keep continuity in the story bible across phases 5 and 6, using
-   `assets/story-bible-template.md`.
+4. Keep continuity in the story bible across phases 6 and 7, using
+   `assets/story-bible-template.md`, and start it from the world bible.
 5. Assemble the manuscript with `scripts/manuscript_assembly.py` and report the word
    count.
 6. Before declaring done, invoke `verification-before-completion` and confirm every phase
@@ -64,6 +70,7 @@ the user asked for "one shot" (or equivalent).
 
 ## Assets and scripts
 
+- `assets/world-bible-template.md`: place, period, rules, institutions, stakes, texture.
 - `assets/story-bible-template.md`: continuity tracker for characters, places, and timeline.
 - `assets/style-fingerprint-template.md`: feature-only voice profile.
 - `scripts/manuscript_assembly.py`: assemble chapters in order and count words.

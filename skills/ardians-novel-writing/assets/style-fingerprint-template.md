@@ -1,6 +1,6 @@
 # Style Fingerprint Template
 
-Feature-only voice profile for phase 2. Record features and applicable rules, never
+Feature-only voice profile for phase 3. Record features and applicable rules, never
 verbatim text.
 
 ## Provenance

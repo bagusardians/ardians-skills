@@ -1,7 +1,7 @@
 {
   "name": "ardians-novel-writing",
-  "version": "1.0.0",
-  "description": "Writes and develops long-form fiction through a seven-phase pipeline: style definition, voice emulation, deep research, genre immersion, drafting, editorial quality, and illustration and maps. Use when the user asks to write a novel, write a book, develop a writing style, ghostwrite in the style of an author, edit a manuscript, or create book cover art and maps.",
+  "version": "1.1.0",
+  "description": "Writes and develops long-form fiction through an eight-phase pipeline: worldbuilding, style definition, voice emulation, deep research, genre immersion, drafting, editorial quality, and illustration and maps. Use when the user asks to write a novel, write a book, develop a writing style, ghostwrite in the style of an author, edit a manuscript, or create book cover art and maps.",
   "author": {
     "name": "bagusardians"
   },

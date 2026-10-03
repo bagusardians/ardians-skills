@@ -1,6 +1,6 @@
 # Story Bible Template
 
-Continuity tracker for phase 5. Keep it current after every chapter and reconcile across
+Continuity tracker for phase 6. Keep it current after every chapter and reconcile across
 parallel chapter work.
 
 ## Characters

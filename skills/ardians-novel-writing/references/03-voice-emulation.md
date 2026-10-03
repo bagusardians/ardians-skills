@@ -1,4 +1,4 @@
-# Phase 2: Voice Emulation
+# Phase 3: Voice Emulation
 
 Build an original style fingerprint from a named author's stylistic features.
 This phase composes `research-brief`, `evidence-based-citations`, and `use-jev`.
@@ -37,7 +37,7 @@ A completed style fingerprint: features, rules, provenance, and an ethics note.
 
 ## Gate
 
-Present the fingerprint and confirm it captures the intended features before phase 3.
+Present the fingerprint and confirm it captures the intended features before phase 4.
 
 ## Checklist
 
