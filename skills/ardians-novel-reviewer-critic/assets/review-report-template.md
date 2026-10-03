@@ -64,6 +64,33 @@ axes; canonical, recent, adjacent.]
 
 **Standing:** [ahead of / on par with / behind / off-field] - [justification].
 
+## Plot-hole and continuity audit
+
+[Summary line: total findings by severity, and the overall continuity health of the
+manuscript.]
+
+| # | Type | Severity | Confidence | Location | Repair recommended |
+|---|---|---|---|---|---|
+| 1 | [taxonomy type] | [blocker/major/moderate/minor] | [high/medium/low] | [ch.] | [repair strategy] |
+
+### Findings
+
+#### [Short title] - [type] - [severity]
+
+- **Finding:** [...what breaks and why it cannot hold...]
+- **Evidence:** [scene/line that establishes the rule it breaks, and the scene that breaks it]
+- **Type / severity / confidence:** [...]
+- **Repair options:** [(a) ... cost: ...; (b) ... cost: ...]
+- **Recommendation:** [chosen repair and why]
+
+[Repeat per finding. Omit the section only if the manuscript is too short to model, and
+say so.]
+
+### Continuity ledger (optional)
+
+[Emit the ledger from `references/05-plot-hole-detection.md` when the user wants a durable
+artifact to track across revisions.]
+
 ## Detailed feedback
 
 [One block per item, using the five-field feedback unit: location, observation, diagnosis,

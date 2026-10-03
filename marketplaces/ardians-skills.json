@@ -167,7 +167,7 @@
     {
       "name": "ardians-novel-reviewer-critic",
       "source": "./skills/ardians-novel-reviewer-critic",
-      "description": "Reviews and critiques novels, stories, and manuscripts with the depth of a veteran critic who has appraised thousands of books. Use when the user asks to review a novel, critique a manuscript, rate a book, score a story, get developmental feedback, compare a book to other books, or asks 'is my novel any good'.",
+      "description": "Reviews and critiques novels, stories, and manuscripts with the depth of a veteran critic who has appraised thousands of books. Use when the user asks to review a novel, critique a manuscript, rate a book, score a story, get developmental feedback, compare a book to other books, find plot holes, or asks 'is my novel any good'.",
       "category": "writing",
       "keywords": [
         "review my novel",
@@ -176,6 +176,9 @@
         "rate my novel",
         "score my story",
         "compare my book to",
+        "find plot holes",
+        "plot hole check",
+        "continuity check",
         "novel",
         "fiction",
         "review",
