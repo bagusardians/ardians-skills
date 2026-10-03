@@ -4,7 +4,7 @@
     "name": "bagusardians"
   },
   "metadata": {
-    "description": "End-to-end product development pipeline skills: ideation, design, architecture, development, analytics, launch, and growth, plus an on-demand crypto trading signal skill and an orchestrator.",
+    "description": "End-to-end product development pipeline skills: ideation, design, architecture, development, analytics, launch, and growth, plus on-demand crypto trading signal and novel writing skills and an orchestrator.",
     "version": "1.0.0",
     "pluginRoot": "./skills",
     "maintainer": "bagusardians",
@@ -145,6 +145,23 @@
         "run it one shot",
         "product",
         "orchestrator"
+      ]
+    },
+    {
+      "name": "ardians-novel-writing",
+      "source": "./skills/ardians-novel-writing",
+      "description": "Writes and develops long-form fiction through a seven-phase pipeline: style definition, voice emulation, deep research, genre immersion, drafting, editorial quality, and illustration and maps. Use when the user asks to write a novel, write a book, develop a writing style, ghostwrite in the style of an author, edit a manuscript, or create book cover art and maps.",
+      "category": "writing",
+      "keywords": [
+        "write a novel",
+        "write a book",
+        "develop a writing style",
+        "ghostwrite in the style of",
+        "edit my manuscript",
+        "book cover and maps",
+        "novel",
+        "fiction",
+        "writing"
       ]
     }
   ]

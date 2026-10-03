@@ -1,0 +1,22 @@
+{
+  "name": "ardians-novel-writing",
+  "version": "1.0.0",
+  "description": "Writes and develops long-form fiction through a seven-phase pipeline: style definition, voice emulation, deep research, genre immersion, drafting, editorial quality, and illustration and maps. Use when the user asks to write a novel, write a book, develop a writing style, ghostwrite in the style of an author, edit a manuscript, or create book cover art and maps.",
+  "author": {
+    "name": "bagusardians"
+  },
+  "homepage": "https://github.com/bagusardians/ardians-skills",
+  "repository": "https://github.com/bagusardians/ardians-skills",
+  "license": "MIT",
+  "keywords": [
+    "write a novel",
+    "write a book",
+    "develop a writing style",
+    "ghostwrite in the style of",
+    "edit my manuscript",
+    "book cover and maps",
+    "novel",
+    "fiction",
+    "writing"
+  ]
+}

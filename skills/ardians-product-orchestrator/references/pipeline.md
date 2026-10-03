@@ -55,6 +55,11 @@ for standalone requests. Its safety boundaries always apply: it is not
 financial advice, it never places live trades without explicit confirmation,
 it paper-trades first, and it stores exchange credentials as secrets.
 
+`ardians-novel-writing` is standalone and never part of the pipeline. It is
+discovered through its keyword triggers for fiction requests and runs its own
+seven phases, with a gate between each. Its voice-emulation phase captures
+stylistic features only and never reproduces copyrighted text.
+
 ## Completion
 
 A pipeline run is done only when the last applicable stage produced its exit
