@@ -1,4 +1,4 @@
-# Phase 1: Style Definition
+# Phase 2: Style Definition
 
 Establish the target voice before any drafting. This phase composes
 `technical-writing` for prose clarity and `brainstorming` to weigh options.
@@ -29,7 +29,7 @@ paragraphs.
 ## Gate
 
 Present the style guide and sample paragraphs. Ask the user to approve or revise
-before phase 2.
+before phase 3.
 
 ## Checklist
 

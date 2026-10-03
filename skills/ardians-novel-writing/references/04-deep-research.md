@@ -1,4 +1,4 @@
-# Phase 3: Deep Research
+# Phase 4: Deep Research
 
 Factually ground the setting, topic, and period. This phase composes
 `research-brief`, `evidence-based-citations`, `notion`, and `jupyter`.
@@ -22,7 +22,7 @@ register.
 
 ## Gate
 
-Present the brief and the open questions. Ask the user to approve before phase 4.
+Present the brief and the open questions. Ask the user to approve before phase 5.
 
 ## Checklist
 

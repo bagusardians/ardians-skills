@@ -1,4 +1,4 @@
-# Phase 6: Editorial and Quality
+# Phase 7: Editorial and Quality
 
 Turn the draft into a clean manuscript. This phase composes `use-jev`,
 `evidence-based-citations`, and `technical-writing`.
@@ -24,7 +24,7 @@ quality scores.
 
 ## Gate
 
-Present the edit report and the edited draft. Ask the user to approve before phase 7.
+Present the edit report and the edited draft. Ask the user to approve before phase 8.
 
 ## Checklist
 

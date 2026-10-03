@@ -16,7 +16,7 @@ runtime instead of re-implementing them.
 | `ardians-product-launch` | 6 | QA, review, CI, release, deploy |
 | `ardians-product-growth` | 7 (optional) | Positioning, GTM plan, launch assets |
 | `ardians-crypto-trading-signal` | on demand | Crypto trading signals, backtests, risk |
-| `ardians-novel-writing` | on demand | Long-form fiction in seven phases |
+| `ardians-novel-writing` | on demand | Long-form fiction in eight phases |
 | `ardians-product-orchestrator` | all | Runs the pipeline end to end |
 
 The orchestrator runs the seven stages in order. By default it stops at each
@@ -25,7 +25,7 @@ it runs straight through and still stops for destructive, security-sensitive, or
 external side effects. `ardians-crypto-trading-signal` is not in the default
 pipeline and is invoked only for crypto or trading requests.
 `ardians-novel-writing` is standalone: it is not part of the pipeline at all
-and runs its own seven-phase fiction flow on request.
+and runs its own eight-phase fiction flow on request (worldbuilding first).
 
 Stage order, entry and exit artifacts, gates, and parallelization live in
 `skills/ardians-product-orchestrator/references/pipeline.md`.

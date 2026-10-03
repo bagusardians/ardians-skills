@@ -1,4 +1,4 @@
-# Phase 7: Illustration, Images, and Maps
+# Phase 8: Illustration, Images, and Maps
 
 Produce the visual and typeset package. This phase composes `theme-factory`,
 `frontend-design`, `canvas-extension-api`, and `pdflatex`.
